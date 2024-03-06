@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { DriverProps } from "@/types";
+import { OvertakeButton } from "@/components/OvertakeButton/OvertakeButton";
 
 export function DriverCard({
   id,
@@ -39,6 +40,7 @@ export function DriverCard({
       <p className={"text-l"}>
         Team: <b>{team}</b>
       </p>
+      <OvertakeButton id={id} />
     </div>
   );
 }
