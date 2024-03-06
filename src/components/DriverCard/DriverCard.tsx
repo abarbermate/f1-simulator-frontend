@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { DriverProps } from "@/types";
-import { OvertakeButton } from "@/components/OvertakeButton/OvertakeButton";
+import { OvertakeButton } from "../OvertakeButton/OvertakeButton.client";
 
 export function DriverCard({
   id,
